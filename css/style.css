@@ -7,7 +7,8 @@
   --color-paper: #f7f5ef;
   --color-sand: #e9e4d8;
   --color-moss: #304336;
-  --color-accent: #d96f45;
+  /* 밝은 배경에서도 작은 글자가 읽히도록 4.5:1 이상의 대비를 확보합니다. */
+  --color-accent: #a64b2b;
   --color-white: #ffffff;
   --color-muted: #65675f;
   --font-sans: "Pretendard", "Noto Sans KR", Arial, sans-serif;
