@@ -1,0 +1,10 @@
+# 배포에는 최적화된 이미지만 포함하고 고해상도 원본은 로컬에 보관합니다.
+/assets/images/*.jpg
+/assets/images/optimized/layer-hero.jpg
+
+# Codex 작업 지침은 웹사이트 배포 파일에 포함하지 않습니다.
+AGENTS.md
+
+# 운영체제가 자동으로 만드는 파일
+Thumbs.db
+.DS_Store

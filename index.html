@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="브랜드의 첫인상을 설계하는 Studio Horizon의 웹사이트 제작 서비스입니다."
+    />
+    <meta name="theme-color" content="#304336" />
+    <title>Studio Horizon | 브랜드를 위한 웹사이트</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+
+    <!-- 다음 단계에서 디자인 파일을 연결합니다. -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- 키보드 사용자가 반복 메뉴를 건너뛰고 본문으로 바로 이동할 수 있는 링크입니다. -->
+    <a class="skip-link" href="#main-content">본문으로 바로가기</a>
+
+    <!-- 사이트의 공통 상단 영역입니다. -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#home" aria-label="Studio Horizon 홈으로 이동">
+          Studio Horizon
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="메뉴 열기"
+          aria-expanded="false"
+          aria-controls="main-navigation"
+        >
+          메뉴
+        </button>
+
+        <nav id="main-navigation" class="main-navigation" aria-label="주요 메뉴">
+          <ul>
+            <li><a href="#services">서비스</a></li>
+            <li><a href="#process">프로세스</a></li>
+            <li><a href="#work">작업 사례</a></li>
+            <li><a href="#about">소개</a></li>
+          </ul>
+        </nav>
+
+        <a class="button button-small" href="#contact">프로젝트 문의</a>
+      </div>
+    </header>
+
+    <!-- 페이지의 고유한 핵심 콘텐츠는 main 안에 넣습니다. -->
+    <main id="main-content">
+      <section id="home" class="hero" aria-labelledby="hero-title">
+        <div class="container hero-content">
+          <p class="eyebrow">BRAND &amp; DIGITAL STUDIO</p>
+          <h1 id="hero-title">좋은 브랜드는<br />좋은 첫 화면에서 시작됩니다.</h1>
+          <p class="hero-description">
+            브랜드의 이야기를 설득력 있는 웹 경험으로 만듭니다. 전략부터
+            디자인, 개발까지 한 팀으로 함께합니다.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#contact">프로젝트 시작하기</a>
+            <a class="text-link" href="#work">작업 사례 보기 <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services section" aria-labelledby="services-title">
+        <div class="container">
+          <p class="eyebrow">WHAT WE DO</p>
+          <h2 id="services-title">브랜드가 필요한 순간을<br />함께 설계합니다.</h2>
+          <div class="service-list">
+            <article class="service-card">
+              <p class="service-number">01</p>
+              <h3>브랜드 전략</h3>
+              <p>고객의 강점을 발견하고, 선명한 브랜드 방향을 함께 만듭니다.</p>
+            </article>
+            <article class="service-card">
+              <p class="service-number">02</p>
+              <h3>웹 디자인</h3>
+              <p>보기 좋은 화면을 넘어, 고객이 행동하게 하는 경험을 설계합니다.</p>
+            </article>
+            <article class="service-card">
+              <p class="service-number">03</p>
+              <h3>웹 개발</h3>
+              <p>빠르고 안정적인 반응형 웹사이트로 브랜드를 완성합니다.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="process section" aria-labelledby="process-title">
+        <div class="container">
+          <p class="eyebrow">HOW WE WORK</p>
+          <h2 id="process-title">복잡한 제작 과정은<br />명확한 순서로 풀어갑니다.</h2>
+          <ol class="process-list">
+            <li>
+              <span class="process-step">01</span>
+              <h3>발견</h3>
+              <p>브랜드와 고객을 이해하는 대화부터 시작합니다.</p>
+            </li>
+            <li>
+              <span class="process-step">02</span>
+              <h3>설계</h3>
+              <p>목표에 맞는 콘텐츠와 화면 흐름을 정리합니다.</p>
+            </li>
+            <li>
+              <span class="process-step">03</span>
+              <h3>제작</h3>
+              <p>디자인과 개발을 연결해 실제 웹사이트를 만듭니다.</p>
+            </li>
+            <li>
+              <span class="process-step">04</span>
+              <h3>성장</h3>
+              <p>오픈 이후에도 브랜드의 다음 단계를 함께 고민합니다.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="work" class="work section" aria-labelledby="work-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">SELECTED WORK</p>
+              <h2 id="work-title">브랜드의 이야기를<br />화면에 담았습니다.</h2>
+            </div>
+            <a class="text-link" href="#contact">더 많은 프로젝트 <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="project-list">
+            <a class="project-card project-card-link" href="projects/maison-de-vert.html" aria-label="Maison de Vert 프로젝트 상세 보기">
+              <div class="project-image project-image-one" aria-hidden="true"></div>
+              <p class="project-category">CONCEPT PROJECT · BRANDING · WEBSITE</p>
+              <h3>Maison de Vert</h3>
+              <p>도심 속 식물 라이프스타일 브랜드</p>
+            </a>
+            <a class="project-card project-card-link" href="projects/layer-coffee.html" aria-label="Layer Coffee 프로젝트 상세 보기">
+              <div class="project-image project-image-two" aria-hidden="true"></div>
+              <p class="project-category">CONCEPT PROJECT · E-COMMERCE</p>
+              <h3>Layer Coffee</h3>
+              <p>일상의 밀도를 높이는 커피 브랜드</p>
+            </a>
+            <a class="project-card project-card-link" href="projects/onda-stay.html" aria-label="Onda Stay 프로젝트 상세 보기">
+              <div class="project-image project-image-three" aria-hidden="true"></div>
+              <p class="project-category">CONCEPT PROJECT · BRAND RENEWAL</p>
+              <h3>Onda Stay</h3>
+              <p>머무는 경험을 디자인하는 스테이</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section" aria-labelledby="about-title">
+        <div class="container about-content">
+          <p class="eyebrow">ABOUT HORIZON</p>
+          <h2 id="about-title">결과물만 남기지 않고,<br />브랜드의 자신감을 만듭니다.</h2>
+          <div class="about-description">
+            <p>
+              Studio Horizon은 작은 브랜드의 좋은 생각이 더 멀리 닿도록 돕는
+              디지털 스튜디오입니다.
+            </p>
+            <p>
+              듣기 좋은 제안보다 필요한 질문을 먼저 드리고, 오래 사용할 수 있는
+              웹사이트를 만듭니다.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section" aria-labelledby="contact-title">
+        <div class="container contact-layout">
+          <div class="contact-intro">
+            <p class="eyebrow">LET'S WORK TOGETHER</p>
+            <h2 id="contact-title">새로운 시작을<br />함께 이야기해 볼까요?</h2>
+            <p>프로젝트의 규모가 아직 정해지지 않아도 괜찮습니다.</p>
+            <address class="contact-info">
+              <a href="mailto:studiohorizon.help@gmail.com">studiohorizon.help@gmail.com</a>
+              <a href="tel:01071733214">010-7173-3214</a>
+            </address>
+          </div>
+
+          <!-- 별도 서버 없이 FormSubmit을 통해 문의 내용을 이메일로 전달합니다. -->
+          <form
+            id="contact-form"
+            class="contact-form"
+            action="https://formsubmit.co/studiohorizon.help@gmail.com"
+            method="POST"
+            novalidate="novalidate"
+          >
+            <input type="hidden" name="_subject" value="[Studio Horizon] 새로운 프로젝트 문의" />
+            <input type="hidden" name="_template" value="table" />
+            <input
+              class="form-honeypot"
+              type="text"
+              name="_honey"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+            />
+            <div class="form-field">
+              <label for="name">이름 또는 회사명 <span aria-hidden="true">*</span></label>
+              <input id="name" name="name" type="text" autocomplete="name" required="required" />
+              <p id="name-error" class="form-error" aria-live="polite"></p>
+            </div>
+
+            <div class="form-field">
+              <label for="email">이메일 <span aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" required="required" />
+              <p id="email-error" class="form-error" aria-live="polite"></p>
+            </div>
+
+            <div class="form-field">
+              <label for="phone">연락처</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" />
+            </div>
+
+            <div class="form-field">
+              <label for="service">필요한 서비스</label>
+              <select id="service" name="service">
+                <option value="">선택해 주세요</option>
+                <option value="brand">브랜드 전략</option>
+                <option value="design">웹 디자인</option>
+                <option value="development">웹 개발</option>
+                <option value="all">기획부터 개발까지</option>
+              </select>
+            </div>
+
+            <div class="form-field form-field-wide">
+              <label for="message">문의 내용 <span aria-hidden="true">*</span></label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="프로젝트의 목표, 필요한 페이지, 희망 일정 등을 알려주세요."
+                required="required"
+              ></textarea>
+              <p id="message-error" class="form-error" aria-live="polite"></p>
+            </div>
+
+            <div class="form-field form-field-wide consent-field">
+              <label>
+                <input id="privacy" name="privacy" type="checkbox" required="required" />
+                <span>입력 정보가 문의 전달을 위해 FormSubmit을 통해 처리되는 것에 동의합니다. *</span>
+              </label>
+              <p id="privacy-error" class="form-error" aria-live="polite"></p>
+            </div>
+
+            <button class="button button-light form-submit" type="submit">문의 보내기</button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="logo" href="#home">Studio Horizon</a>
+        <p>© 2026 Studio Horizon. All rights reserved.</p>
+        <a href="mailto:studiohorizon.help@gmail.com">studiohorizon.help@gmail.com</a>
+        <a href="tel:01071733214">010-7173-3214</a>
+      </div>
+    </footer>
+
+    <!-- 페이지의 메뉴와 헤더 동작을 연결합니다. -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
