@@ -11,7 +11,7 @@
 
 ## 공개 주소
 
-- [onda-stay](https://grow-mindset.github.io/studio-horizon-portfolio/onda-stay/)
+- [onda-stay](https://grow-mindset.github.io/studio-horizon-portfolio/onda-stay/index.html)
 
 ## 실행 방법
 
